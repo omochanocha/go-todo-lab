@@ -1,0 +1,6 @@
+[tools]
+go = "latest"
+"go:github.com/go-delve/delve/cmd/dlv" = "latest"
+golangci-lint = "latest"
+node = "latest"
+pnpm = "latest"

@@ -31,3 +31,27 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# Build output
+/go-todo-lab
+
+# Env / Cloudflare local secrets
+.env.*
+!.env.example
+.dev.vars
+.wrangler/
+
+# Node
+node_modules/
+
+# pnpm のロックファイル（このリポジトリは npm の package-lock.json のみコミットする）
+pnpm-lock.yaml
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / editor
+.DS_Store

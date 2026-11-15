@@ -1,0 +1,14 @@
+{
+  "name": "commitlint-lefthook-example",
+  "version": "1.0.0",
+  "description": "commitlint と lefthook で Conventional Commits を強制する最小サンプル",
+  "private": true,
+  "scripts": {
+    "prepare": "lefthook install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.1.0",
+    "@commitlint/config-conventional": "^21.1.0",
+    "lefthook": "^2.2.2"
+  }
+}
